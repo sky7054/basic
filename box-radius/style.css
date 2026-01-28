@@ -1,0 +1,14 @@
+body{
+    background-color: hsl(0,0%,94%);
+    /* display: grid; */
+    /* align-items: center; a*/
+    /* place-items: center; */
+    font-family: "Urbanist", sans-serif;
+}
+div{
+    width: 200px;
+    height: 200px;
+    background-color: #5e9de9;
+    border-radius: 50%;
+
+}
