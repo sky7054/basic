@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family:"Urbanist", sans-serif;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    background-color: rgb(236, 233, 228);
+}
+
+#main-heading {
+    font-size: 4.2rem;
+    color: #1e1403;
+    margin: 3rem;
+    letter-spacing: 1px;
+}
+
+.flex-container {
+    width: 60%;
+    height: auto;
+    background-color: rgb(165, 160, 160);
+    margin: 0 auto;
+    color: #fff;
+
+    /* flex Properties...... */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 20px;
+    flex-wrap: wrap;
+    align-content: center;
+
+
+
+}
+
+.Item {
+    min-width: 100px;
+    height: 100px;
+    background-color: rgb(206, 115, 218);
+    font-size: 25px;
+    display: grid;
+    place-items: center;
+    box-shadow: 3px 3px 3px white;
+    margin:2px;
+}
+
+.Item:nth-child(even) {
+    background-color: #72e481;
+}
