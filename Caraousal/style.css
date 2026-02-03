@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.container-img {
+    width: 70vw;
+    height: 50rem;
+    border-radius: 1rem;
+    background-image: url(/images/apple.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    animation: gallery 20s linear;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes gallery{
+    0% {
+        background-image: url(/images/image-1.jpg);
+    }
+    25% {
+        background-image: url(/images/image-2.jpg);
+    }
+    50% {
+        background-image: url(/images/image-3.jpg);
+    }
+    75%{
+        background-image: url(/images/image-4.jpg);
+    }
+    100%{
+        background-image: url(/images/image-5.jpg);
+    }
+}
